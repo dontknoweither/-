@@ -1,0 +1,33 @@
+
+*{
+    padding:0;
+    margin:0;
+    box_sizing:border-box;
+}
+
+html,body{
+    font-family: 'Segoe UI',Tahoma, Geneva, Verdana, sans_serif;
+    line-hight: 1.7em;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+p{
+    margin:10px 0;
+}
+.container{
+    margin:0 auto;
+    max-width:1100px;
+    overflow:hidden;
+    padding:0 20px;
+}
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
