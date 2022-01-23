@@ -10,7 +10,7 @@ html,body{
     line-hight: 1.7em;
 }
 a{
-    color:#333;
+    color:#fff;
     text-decoration: none;
 }
 h1,h2,h3{
@@ -26,8 +26,16 @@ p{
     padding:0 20px;
 }
 #navbar{
-    background: #333;
+    background: #288;
     color: #fff;
     overflow: auto;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px;
+    text-align: center;
 }
 
